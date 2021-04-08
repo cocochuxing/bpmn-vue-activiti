@@ -1,0 +1,1 @@
+import{C as s,g as o,E as e,D as m}from"./common.d25c9b87.js";import"./index.26fee642.js";import"./vendor.f867c041.js";const r=[s,o({name:"全局监听器"}),e,m];var a={"bpmn:Process":r,"bpmn:SubProcess":r};export default a;

@@ -1,0 +1,1 @@
+import{C as t,E as e,D as n}from"./common.d25c9b87.js";import"./index.26fee642.js";import"./vendor.f867c041.js";const m=[t,e,n];var r={"bpmn:StartEvent":m,"bpmn:EndEvent":m,"bpmn:IntermediateThrowEvent":m,"bpmn:IntermediateCatchEvent":m};export default r;
