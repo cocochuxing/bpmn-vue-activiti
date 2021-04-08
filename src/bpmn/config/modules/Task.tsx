@@ -25,13 +25,13 @@ const TaskListenerProperties = getElementTypeListenerProperties({
 });
 
 const USER_OPTIONS = [
-  { label: '用户1', value: '1' },
-  { label: '用户2', value: '2' },
-  { label: '用户3', value: '3' },
-  { label: '用户4', value: '4' },
-  { label: '用户5', value: '5' },
-  { label: '用户6', value: '6' },
-  { label: '用户7', value: '7' },
+  { label: '用户1', value: 'p1' },
+  { label: '用户2', value: 'p2' },
+  { label: '用户3', value: 'p3' },
+  { label: '用户4', value: 'p4' },
+  { label: '用户5', value: 'p5' },
+  { label: '用户6', value: 'p6' },
+  { label: '用户7', value: 'p7' },
 ];
 /**
  * 用户任务属性配置
