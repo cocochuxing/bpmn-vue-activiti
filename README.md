@@ -63,5 +63,20 @@ bpmn相关的配置在`src/bpmn`目录下
 
 
 
-
+```
+git checkout --orphan gh-pages
+git reset --hard
+git commit --allow-empty -m "Orphan init"
+git checkout master
+git worktree add new-gh-pages gh-pages
+cp -r ../dist .
+cp ../.gitignore .
+pushd new-gh-pages
+git add --all
+git commit -m "update"
+git push -f origin gh-pages
+popd
+git worktree remove new-gh-pages
+git branch -D gh-pages
+```
 
