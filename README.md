@@ -64,6 +64,7 @@ bpmn相关的配置在`src/bpmn`目录下
 
 
 ```
+npm run build
 git checkout --orphan gh-pages
 git reset --hard
 git commit --allow-empty -m "Orphan init"
